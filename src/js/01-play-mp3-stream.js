@@ -18,6 +18,7 @@ function mousePressed() {
     // trigger audio
     audio.play();
 
+    // Web-Audio API
     const source = audioContext.createMediaElementSource(audio);
 
     // wire the source to the 'speaker'
